@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Dataset
+backend/dataset/
+
+# Large trained model files
+*.pth
+*.pt
+*.onnx
+*.h5
+
+# React
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# Environment/secrets
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
